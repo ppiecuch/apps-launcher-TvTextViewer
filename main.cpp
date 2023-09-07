@@ -405,8 +405,8 @@ int main(int argc, char** argv)
 
   // Change the background to red if the --error_display option is given
   if (args.count("error_display")) {
-    ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(ImColor(94, 11, 22, 255))); // Set window background to red
-    ImGui::PushStyleColor(ImGuiCol_TitleBgActive, ImVec4(ImColor(94, 11, 22, 255)));
+    ImGui::PushStyleColor(ImGuiCol_WindowBg, ImVec4(ImColor(180, 0, 0, 255))); // Set window background to red
+    ImGui::PushStyleColor(ImGuiCol_TitleBgActive, ImVec4(ImColor(180, 0, 0, 255)));
   }
 
   // Apply the requested font size 
